@@ -1,9 +1,30 @@
-img {
+.earth {
     display: block;
     margin: 0 auto;
     width: 75%;
     border: 5px solid #acb30a;
     border-radius: 20px;
+}
+
+body {
+    margin: 0 auto;
+    background: linear-gradient(
+101deg
+, #a29e94, white);
+}
+
+header {
+    background: gray;
+    margin: 0 auto;
+    z-index: 99;
+}
+
+
+main {
+    margin: 0 auto;
+    background: #ffffff7a;
+    max-width: 1000px;
+    padding: 50px;
 }
 
 nav li {
@@ -17,11 +38,88 @@ nav {
     padding: 50px;
     text-align: center;
     position: relative;
+    margin: 0 auto;
 }
+
+nav li a {
+    display: inline;
+    padding: 41px;
+    background: #f0efeb;
+    font-family: monospace;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2f5477;
+  background: #f2f2f2;
+  padding: 10px 20px;
+  transition: .5s;
+  width: 100px;
+}
+
+a:hover {
+    color: #cc38fd;
+}
+
+.text {
+    font-family: sans-serif;
+    padding: 30px;
+    margin: auto;
+    line-height: 26px;
+    color: #221b1c;
+}
+
+.china {
+    float: left;
+    border: solid 5px #ff5722;
+    margin: 15px;
+    border-radius: 6px;
+}
+
 h1 {
     font-family: monospace;
     font-size: 100px;
     position: absolute;
-    padding: 583px 219px;
-    color: #2963af;
+    top: 135px;
+    left: 405px;
+    color: #83a2bb;
+    z-index: 98;
+}
+h2 {
+    font-size: 30px;
+    font-family: monospace;
+    color: green;
+}
+
+.figment {
+    border: none;
+    position: relative;
+    top: 18px;
+    left: 425px;
+    animation: spin 10s;
+    animation-iteration-count: infinite;
+}
+
+.logo {
+    position: fixed;
+    right: 8px;
+    bottom: 175px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+
+  }
+  50% {
+    transform: rotateX(-180deg) rotateY(180deg) rotateZ(180deg);
+
+  }
+  100% {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+
+  }
 }
