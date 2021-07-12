@@ -1,11 +1,3 @@
-.earth {
-    display: block;
-    margin: 0 auto;
-    width: 75%;
-    border: 5px solid #acb30a;
-    border-radius: 20px;
-}
-
 body {
     margin: 0 auto;
     background: linear-gradient(
@@ -60,25 +52,6 @@ nav a {
   width: 100px;
 }
 
-a:hover {
-    color: #cc38fd;
-}
-
-.text {
-    font-family: sans-serif;
-    padding: 30px;
-    margin: auto;
-    line-height: 26px;
-    color: #221b1c;
-}
-
-.china {
-    float: left;
-    border: solid 5px #ff5722;
-    margin: 15px;
-    border-radius: 6px;
-}
-
 h1 {
     font-family: monospace;
     font-size: 100px;
@@ -88,11 +61,45 @@ h1 {
     color: #83a2bb;
     z-index: 98;
 }
+
 h2 {
     font-size: 30px;
     font-family: monospace;
     color: green;
 }
+
+
+
+a:hover {
+    color: #cc38fd;
+}
+
+
+
+
+.text {
+    font-family: sans-serif;
+    padding: 30px;
+    margin: auto;
+    line-height: 26px;
+    color: #221b1c;
+}
+
+.earth {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    border: 5px solid #acb30a;
+    border-radius: 20px;
+}
+
+.china {
+    float: left;
+    border: solid 5px #ff5722;
+    margin: 15px;
+    border-radius: 6px;
+}
+
 
 .figment {
     border: none;
@@ -108,6 +115,9 @@ h2 {
     right: 8px;
     bottom: 175px;
 }
+
+
+
 
 @keyframes spin {
   0% {
